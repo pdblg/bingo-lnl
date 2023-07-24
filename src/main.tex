@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{caption}
+
+% Define a new column type for square cells with single line borders
+\newcolumntype{C}{>{\centering\arraybackslash}m{1.6cm}|}
+
+% Remove page numbers
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{table}
+    \centering
+    \caption*{Characteristics of an Ideal Person}
+    \begin{tabular}{|*{5}{C}}
+        \hline
+        Reads books (with words) & Has a job & Doesn't do drugs & Has a talent & Is in good physical health \\
+        \hline
+        Has 25+ people in phone contacts & Plays an instrument & Loves and respects their parents & Exercises & Is not too political \\
+        \hline
+        Has a healthy hobby & Is happy & Pays taxes & Has a tidy room & Doesn't get into arguments most of the days \\
+        \hline
+        Respects people with different opinions & Has a healthy sleeping schedule & Knows how to cook & Spends time outside & Plays \newline a sport \\
+        \hline
+        Interacts with real friends at least once a week & Doesn't go to a therapist & Is not obsessed with a fictional character & Has a plan for the future & Is capable of normal human speech \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\end{document}
